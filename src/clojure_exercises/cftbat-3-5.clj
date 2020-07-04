@@ -5,7 +5,7 @@
   "Works like symmetrize-body-parts but for stranger bodies (assuming the 'asymmetric parts' are still 'left' parts)"
   [part]
   (map (fn [part-orientation] {:name (clojure.string/replace (:name part) #"^left-" part-orientation)
-    :size (:size part)}) ["right-" "vertical-" "polar-" "azimuthal-"]))
+                               :size (:size part)}) ["right-" "vertical-" "polar-" "azimuthal-"]))
 
 (defn symmetrize-body-parts
   "Expands an abbreviated, asymmetrical sequence of body parts to contain all actual body parts"
@@ -19,7 +19,7 @@
 ; Just some body parts
 (def asymmetric-body-parts
   [{:name "left-hand" :size 1}
-  {:name "head" :size 3}
-  {:name "left-leg" :size 4}])
+   {:name "head" :size 3}
+   {:name "left-leg" :size 4}])
 
 (symmetrize-body-parts asymmetric-body-parts)
