@@ -11,8 +11,8 @@
   "Expands an abbreviated, asymmetrical sequence of body parts to contain all actual body parts"
   [asymmetric-body-parts]
   (reduce (fn [final-parts part]
-              (into final-parts
-                (set (into [part] (alien-add-parts part))))) ; Using into as otherwise a vector of a map and list
+            (into final-parts
+                  (set (into [part] (alien-add-parts part))))) ; Using into as otherwise a vector of a map and list
           []
           asymmetric-body-parts))
 

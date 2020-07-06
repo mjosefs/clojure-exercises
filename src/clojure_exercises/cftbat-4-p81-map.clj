@@ -4,9 +4,9 @@
   "Implementing map using reduce"
   [f seq] ; only one argument allowed...
   (apply list
-    (reduce (fn [mapped-list arg] (conj mapped-list (f arg)))
-      []
-      seq)))
+         (reduce (fn [mapped-list arg] (conj mapped-list (f arg)))
+                 []
+                 seq)))
 
 ; Quick comparison
 (def test-seq-1 '(1 2 3 4))
