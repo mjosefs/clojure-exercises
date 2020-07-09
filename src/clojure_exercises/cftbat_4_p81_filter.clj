@@ -1,4 +1,4 @@
-(ns clojure-exercises.core)
+(ns clojure-exercises.cftbat-4-p81-filter)
 
 (defn reduce-based-filter
   "Implementing filter using reduce"

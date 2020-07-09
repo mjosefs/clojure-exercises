@@ -1,4 +1,4 @@
-(ns clojure-exercises.core)
+(ns clojure-exercises.cftbat-4-1)
 
 ; Output from filter run
 (def glitter-filter-res

@@ -1,4 +1,4 @@
-(ns clojure-exercises.core
+(ns clojure-exercises.cftbat-3-1
   (:gen-class))
 
 (vector (str "This " "is " 1 " sentence")

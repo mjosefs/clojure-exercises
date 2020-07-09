@@ -1,4 +1,4 @@
-(ns clojure-exercises.core)
+(ns clojure-exercises.cftbat-4-p81-some)
 
 (defn reduce-based-some
   "Implementing some using reduce"

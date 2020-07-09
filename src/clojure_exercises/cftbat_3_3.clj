@@ -1,4 +1,4 @@
-(ns clojure-exercises.core
+(ns clojure-exercises.cftbat-3-3
   (:gen-class))
 
 (defn dec-maker

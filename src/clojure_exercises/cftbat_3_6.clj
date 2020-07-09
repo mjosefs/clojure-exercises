@@ -1,4 +1,4 @@
-(ns clojure-exercises.core
+(ns clojure-exercises.cftbat-3-6
   (:gen-class))
 
 (defn generate-directions

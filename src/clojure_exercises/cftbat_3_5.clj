@@ -1,4 +1,4 @@
-(ns clojure-exercises.core
+(ns clojure-exercises.cftbat-3-5
   (:gen-class))
 
 (defn alien-add-parts

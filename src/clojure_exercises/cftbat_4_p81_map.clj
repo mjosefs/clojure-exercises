@@ -1,4 +1,4 @@
-(ns clojure-exercises.core)
+(ns clojure-exercises.cftbat-4-p81-map)
 
 (defn reduce-based-map
   "Implementing map using reduce"
